@@ -5,7 +5,7 @@ on:
     inputs:
       image_url:
         description: 'Recovery Image URL'
-        default: 'https://transfer.sh/<file-id>/<file>.img'
+        default: 'https://github.com/a02-trial/fastboot-patcher/raw/refs/heads/core/files/recovery.img'
         required: true
         type: string
 
